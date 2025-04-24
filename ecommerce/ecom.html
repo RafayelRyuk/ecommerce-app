@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple E-Commerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>E-Commerce Product Page</h1>
+  <div class="container">
+    <div class="products">
+      <h2>Products</h2>
+      <div class="product">
+        <p>T-shirt - $25</p>
+        <button onclick="addToCart('T-shirt', 25)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <p>Jeans - $50</p>
+        <button onclick="addToCart('Jeans', 50)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <p>Sneakers - $75</p>
+        <button onclick="addToCart('Sneakers', 75)">Add to Cart</button>
+      </div>
+    </div>
+    <div class="cart">
+      <h2>Shopping Cart</h2>
+      <div id="cartItems"></div>
+      <p><strong>Total:</strong> $<span id="total">0</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
