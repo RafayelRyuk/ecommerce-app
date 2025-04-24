@@ -1,2 +1,2 @@
 # ecommerce-app
-this app let's add curent products to shopping card
+this fronet-end and back-end app let's add current products to shopping card and write down the sum of all products. 
